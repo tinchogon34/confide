@@ -512,4 +512,11 @@ class ConfideUser extends Ardent implements UserInterface {
             return false;
         }
     }
+
+    public function getRememberToken(){};
+
+    public function setRememberToken($value){};
+
+    public function getRememberTokenName(){};
+
 }
